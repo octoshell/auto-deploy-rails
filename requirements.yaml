@@ -1,9 +1,9 @@
 dependencies:
   - name: postgresql
-    version: "0.7.1"
-    repository: "https://kubernetes-charts.storage.googleapis.com/"
+    version: "13.3.0"
+    repository: "https://charts.bitnami.com/bitnami"
     condition: postgresql.enabled
   - name: redis
-    version: "5.1.6"
-    repository: "https://kubernetes-charts.storage.googleapis.com/"
+    version: "6.2.4"
+    repository: "https://charts.bitnami.com/bitnami"
     condition: redis.enabled
